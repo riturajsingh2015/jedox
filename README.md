@@ -9,5 +9,3 @@ The source code is written in Java
 - Where could interfaces be used in the implementation?
 - What about the performance in case of huge datasets with e.g. 10 million rows?
 - How can the tree be made thread-safe?
-
-
