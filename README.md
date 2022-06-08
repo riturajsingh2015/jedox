@@ -10,10 +10,10 @@ The source code is written in Java
 
 - [`pom.xml`](./Tree/pom.xml) contains all the dependencies for the maven project
 - [`data`](./Tree/data) folder contains our Excel file `Book1.xlsx` used as datasource
--  `Main.java` the Entry point to our project
--  `Parser.java` contains a parser to parse  `Book1.xlsx` 
+- [`Main.java`](./Tree/src/main/java/utils/Main.java) the Entry point to our project
+- [`Parser.java`](./Tree/src/main/java/utils/Parser.java) contains a parser to parse  `Book1.xlsx` 
 - `Parser.java` also contains a parse method to get Tree as output
-- `Tree.java` contains implementation of Tree class with corresponding methods
+- [`Tree.java`](./Tree/src/main/java/utils/Tree.java) contains implementation of Tree class with corresponding methods
 
 ### About Parser.java
 
