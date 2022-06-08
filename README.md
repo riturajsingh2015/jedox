@@ -41,6 +41,7 @@ The source code is written in Java
         	System.out.println("_____________________________________________");
         }
 
-
 ```
 
+### Output
+![output](./Tree/Output.jpg)
