@@ -1,4 +1,4 @@
-# jedox homework : Datasource to Tree
+# Datasource to Tree
 
 The goal of this homework is to read an excel datasource and convert it to **Tree** datastructure.
 The source code is written in Java 
@@ -12,7 +12,7 @@ The source code is written in Java
 - [`data`](./Tree/data) folder contains our Excel file `Book1.xlsx` used as datasource
 - [`Main.java`](./Tree/src/main/java/utils/Main.java) the Entry point to our project
 - [`Parser.java`](./Tree/src/main/java/utils/Parser.java) contains a parser to parse  `Book1.xlsx` 
-- `Parser.java` also contains a parse method to get Tree as output
+- `Parser.java` also contains a `parse` method to get Tree as output
 - [`Tree.java`](./Tree/src/main/java/utils/Tree.java) contains implementation of Tree class with corresponding methods
 
 ### About Parser.java
