@@ -5,8 +5,11 @@ The source code is written in Java
 
 ## About the Project
 `Tree` is the project folder used which contains all the required files and dependencies as a maven project.
-- `pom.xml`[./Tree/pom.xml] contains all the dependencies for the maven project
-- `data`[./Tree/data] folder contains our Excel file `Book1.xlsx` used as datasource
+- Eclipse was used to build the project
+
+
+- [`pom.xml`](./Tree/pom.xml) contains all the dependencies for the maven project
+- [`data`](./Tree/data) folder contains our Excel file `Book1.xlsx` used as datasource
 -  `Main.java` the Entry point to our project
 -  `Parser.java` contains a parser to parse  `Book1.xlsx` 
 - `Parser.java` also contains a parse method to get Tree as output
@@ -17,7 +20,8 @@ The source code is written in Java
 - Contains a variable `rows` which denotes how many rows of `Book1.xlsx` you want to scan
 - After every node insertion you need to give integer as input. This was done to hold the check the output on console
 
-- Important Code Snippet
+- Important Code Snippet which inserts a new node in the Tree.
+
 ```bash
         for(int i=1; i < rows ; i++) { 
         	Tree pointer=root;
