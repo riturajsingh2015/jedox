@@ -27,6 +27,9 @@ public class Parser {
         
         
 
+        long startTime = System.currentTimeMillis();
+
+        //Main Code
 
         for(int i=1; i < rows ; i++) { // Note :- We start from the i=1 later       
         	Tree pointer=root;
@@ -40,12 +43,15 @@ public class Parser {
         		pointer=pointer.search(child);
         		
         		System.out.println(root);
-                keyboard.nextInt();
+                //keyboard.nextInt();
             }
 
         	System.out.println("_____________________________________________");
         }
-
+        //End of the Main Code
+        long stopTime = System.currentTimeMillis();
+        long elapsedTime = stopTime - startTime;
+        System.out.println(elapsedTime);
 
     }
 	
