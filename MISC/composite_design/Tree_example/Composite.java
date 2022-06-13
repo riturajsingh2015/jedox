@@ -25,6 +25,6 @@ public class Composite implements Component{
     }
 
     
-    ///////////////Comment added in Composite.java
+    ///////////////Comment added in Composite.java ////
     
 }
