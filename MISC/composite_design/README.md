@@ -13,3 +13,13 @@ From the name, "Composite" means the combination or made from different parts. S
 Most common example can be file-directory structure. As shown in image. Node can be a directory or a file.
 
 ![Directory Structure](https://stacktraceguru.com/wp-content/uploads/2020/03/composite-design-pattern-directory-structure-1.png)
+
+### Composite design pattern structure
+
+
+The image shows the basic structure of the composite design pattern.
+There are 2 types of objects Composite object and Leaf object.
+![Directory Structure](https://stacktraceguru.com/wp-content/uploads/2020/03/composite-design-pattern-structure-1.png)
+
+1. Composite Object : It is an object which contains other object. This has children e.g: Directory(file folder)
+2. Leaf Object : It is a single object. It does not have children e.g: File
