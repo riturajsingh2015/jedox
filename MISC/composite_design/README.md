@@ -21,5 +21,5 @@ The image shows the basic structure of the composite design pattern.
 There are 2 types of objects Composite object and Leaf object.
 ![Directory Structure](https://stacktraceguru.com/wp-content/uploads/2020/03/composite-design-pattern-structure-1.png)
 
-1. Composite Object : It is an object which contains other object. This has children e.g: Directory(file folder)
-2. Leaf Object : It is a single object. It does not have children e.g: File
+1. **Composite Object** : It is an object which contains other object. This has children e.g: Directory(file folder)
+2. **Leaf Object** : It is a single object. It does not have children e.g: File
