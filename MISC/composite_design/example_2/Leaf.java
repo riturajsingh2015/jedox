@@ -14,6 +14,7 @@ public class Leaf implements Component{
     public void printName()
     {
         System.out.println("\t"+this.name);
+        
     }
 
 

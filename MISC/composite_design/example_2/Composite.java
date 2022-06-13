@@ -1,6 +1,6 @@
 import java.util.*;
 public class Composite implements Component{
-    String name;
+    String name;  
     private List<Component> children = new ArrayList<>();
 
     public Composite(String name) {
@@ -17,14 +17,16 @@ public class Composite implements Component{
         return this.name;
     }
 
+
     public void printName()
-    {
+    {   
         System.out.println(this.name);
         for(Component c : children)
             c.printName();
+            
     }
 
     
-    ///////////////Comment added in Composite.java ////
+    
     
 }
