@@ -53,4 +53,4 @@ We used Composite Design pattern
 ```
 
 ### Output
-![output](./Tree/output.jpg)
+![Output](./Tree/output.jpg)
