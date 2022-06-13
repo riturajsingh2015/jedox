@@ -13,7 +13,16 @@ The source code is written in Java
 - [`Main.java`](./Tree/src/main/java/utils/Main.java) the Entry point to our project
 - [`Parser.java`](./Tree/src/main/java/utils/Parser.java) contains a parser to parse  `Book1.xlsx` 
 - `Parser.java` also contains a `parse` method to get Tree as output
-- [`Tree.java`](./Tree/src/main/java/utils/Tree.java) contains implementation of Tree class with corresponding methods
+
+## Implementation with Composite Design Pattern
+We used Composite Design pattern
+
+- It uses [`Component.java`](./Tree/src/main/java/utils/Component.java) as it an interface which provides the requirement specifications
+- The [`Leaf.java`](./Tree/src/main/java/utils/Leaf.java) and [`Tree.java`](./Tree/src/main/java/utils/Tree.java) implement `Component.java`
+- Both `Leaf.java` and `Tree.java` overide the same method `printTree`
+- Hence when calling using `printTree` gives a feel viz similar to recursion
+
+- `Tree.java` contains implementation of Tree class with corresponding methods
 
 ### About Parser.java
 
@@ -27,12 +36,12 @@ The source code is written in Java
         	Tree pointer=root;
         	for(int j=cols-1; j >= 0 ; j--) {
         		Tree child= new Tree(array[i][j]);
-        		Tree child_present=pointer.search(child);
+        		Tree child_present=pointer.searchChildren(child);
         		if (child_present==null)
-        			pointer.getChildren().add(child);
+        			pointer.addComponent(child);
         		
         		//update the pointer
-        		pointer=pointer.search(child);
+        		pointer=pointer.searchChildren(child);
         		
         		System.out.println(root);
                 keyboard.nextInt();
@@ -44,4 +53,4 @@ The source code is written in Java
 ```
 
 ### Output
-![output](./Tree/Output.jpg)
+![output](./Tree/output.jpg)

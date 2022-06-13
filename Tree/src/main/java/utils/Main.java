@@ -8,7 +8,6 @@ public class Main {
 		Parser parser = new Parser();
 		parser.parse();
 		
-
 	}
 	
 
