@@ -53,4 +53,6 @@ We used Composite Design pattern
 ```
 
 ### Output
+
+The `printTree` method helps us in printing the nodes of the Tree as show below in the output
 ![Output](./Tree/Output.jpg)
