@@ -6,4 +6,6 @@
 - Hence when calling using `printTree` gives a feel viz similar to recursion
 
 
+### Output
+![output](./output_tree.png)
 
