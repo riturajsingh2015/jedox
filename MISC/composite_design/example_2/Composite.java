@@ -17,16 +17,19 @@ public class Composite implements Component{
         return this.name;
     }
 
-
-    public void printName()
-    {   
-        System.out.println(this.name);
-        for(Component c : children)
-            c.printName();
-            
+    public String toString() {
+        StringBuilder buffer = new StringBuilder(50);
+        printTree(buffer, "", "");
+        return buffer.toString();
     }
 
-    
-    
+    public void printTree(StringBuilder buffer, String prefix, String childPrefix)
+    {   
+        buffer.append(prefix);
+        buffer.append(this.name);
+        buffer.append("\n"); 
+        for(Component c : children)
+            c.printTree(buffer,childPrefix + "|--", childPrefix + "│   ");                       
+    }
     
 }

@@ -7,14 +7,12 @@ public class Leaf implements Component{
     
     public String getName()
     {
-        
         return this.name;
     }
 
-    public void printName()
+    public void printTree(StringBuilder buffer, String prefix, String childPrefix)
     {
-        System.out.println("\t"+this.name);
-        
+     buffer.append(prefix+this.name+"\n");        
     }
 
 

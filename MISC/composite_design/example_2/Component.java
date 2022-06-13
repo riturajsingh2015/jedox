@@ -1,4 +1,4 @@
 public interface Component {
     public String getName();
-    public void printName();
+    public void printTree(StringBuilder buffer, String prefix, String childPrefix);
 }

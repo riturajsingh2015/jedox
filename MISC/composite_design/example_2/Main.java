@@ -29,19 +29,20 @@ public class Main {
         
         composite1.addComponent(child1);
         composite1.addComponent(composite3);
+        composite2.addComponent(composite4);
         composite2.addComponent(child2);
         composite2.addComponent(child3);
-        composite2.addComponent(composite4);
+        
         
         
 
         root.addComponent(composite1);
         root.addComponent(composite2);
         
-         
-        root.printName();
         
-      
+        
+        System.out.print(root);
+        System.out.println();
         
 
         
